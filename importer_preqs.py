@@ -10,3 +10,10 @@ os.system("pipreqs --force .")		# generates the requirements.txt for the current
 									#--force to replace the previous requirements.txt if exists.
 os.system("pip3 install -r requirements.txt")	#install all the missing modules.
 # os.remove("./requirements.txt")	#uncomment to remove the requirements.txt automatically.
+
+
+'''
+Source:
+https://github.com/bndr/pipreqs
+https://stackoverflow.com/questions/46419607/how-to-automatically-install-required-packages-from-a-python-script-as-necessary/46419642#:~:text=You%20can%20use%20pipreqs%20to,pip%20install%20pipreqs%20pipreqs%20.
+'''
