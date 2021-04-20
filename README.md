@@ -3,4 +3,5 @@ Simple python script that detects the missing modules for project based on impor
 
 Usage : 
 	put this script in the base of the folder and run as a normal script.
-
+	as , 
+	$ python3 importer_preqs.py
